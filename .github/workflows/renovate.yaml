@@ -25,5 +25,5 @@ jobs:
           configurationFile: ./config.js
         env:
           LOG_LEVEL: debug
-          RENOVATE_DOCKER_USER: ${{ secrets.RENOVATE_DOCKER_USER }}
+          RENOVATE_DOCKER_USER: najakobs
           RENOVATE_DOCKER_PASS: ${{ secrets.RENOVATE_DOCKER_PASS }}
