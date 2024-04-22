@@ -1,0 +1,28 @@
+global:
+  cloudprovider: "dev"
+
+autosharding:
+  enabled: false
+
+replicas: 1
+
+kubeStateMetrics:
+  image:
+    repository: bitnami/kube-state-metrics
+    tag: "2.9.1"
+    digest: sha256:b23831f93fba580d6a7adafd09897d62739a18c16417c9609b67a7789e6ba0c5
+    pullPolicy: IfNotPresent
+
+fullnameOverride: kube-state-metrics
+prometheusScrape: true
+
+service:
+  port: 8080
+  # Default to clusterIP for backward compatibility
+  type: ClusterIP
+  nodePort: 0
+  loadBalancerIP: ""
+  clusterIP: ""
+  annotations:
+    prometheus.io/port: "8080"
+    prometheus.io/path: "/metrics"
