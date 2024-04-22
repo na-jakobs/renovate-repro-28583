@@ -9,15 +9,15 @@ I am trying to update the image tag and the digest with a regex custom manager.
 
 The values.yaml indenting breaks with my current config, ideally it should add 4 spaces but adds 2.
 
-### bitnami/kube-state-metrics:2.9.1
+### kubesphere/kube-state-metrics:v2.8.0
 
 ```
-bitnami/kube-state-metrics:2.9.1
-sha256:b23831f93fba580d6a7adafd09897d62739a18c16417c9609b67a7789e6ba0c5
-https://hub.docker.com/layers/bitnami/kube-state-metrics/2.9.1/images/sha256-1f67066b3b386afb7fd83a4bdff5bca0067e08747d49a5ed280a29cbfc0dd2d3?context=explore
+kubesphere/kube-state-metrics:v2.8.0
+sha256:5658d0011a41779ef114f3508143a0e67e4169f64333d0337e731d191ab7edb8
+https://hub.docker.com/layers/kubesphere/kube-state-metrics/v2.8.0/images/sha256-6911e6a8c3e8eb55a6f775dfbb789802adb0a15141b0297c5be90ed543571849?context=explore
 ```
 
 ```
-❯ crane digest bitnami/kube-state-metrics:2.9.1
-sha256:b23831f93fba580d6a7adafd09897d62739a18c16417c9609b67a7789e6ba0c5
+❯ crane digest kubesphere/kube-state-metrics:v2.8.0
+sha256:5658d0011a41779ef114f3508143a0e67e4169f64333d0337e731d191ab7edb8
 ```

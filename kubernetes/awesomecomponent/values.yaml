@@ -9,8 +9,8 @@ replicas: 1
 kubeStateMetrics:
   image:
     repository: bitnami/kube-state-metrics
-    tag: "2.9.1"
-    digest: sha256:b23831f93fba580d6a7adafd09897d62739a18c16417c9609b67a7789e6ba0c5
+    tag: v2.8.0
+    digest: sha256:5658d0011a41779ef114f3508143a0e67e4169f64333d0337e731d191ab7edb8
     pullPolicy: IfNotPresent
 
 fullnameOverride: kube-state-metrics

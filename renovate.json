@@ -6,9 +6,9 @@
   "enabledManagers": [
     "custom.regex"
   ],
-  "branchConcurrentLimit": 10,
-  "prConcurrentLimit": 10,
-  "prHourlyLimit": 5,
+  "branchConcurrentLimit": 0,
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
   "customManagers": [
     {
       "customType": "regex",
