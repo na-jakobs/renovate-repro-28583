@@ -8,7 +8,7 @@ module.exports = {
   hostRules: [
     {
       hostType: "docker",
-      registryUrl: "docker.io",
+      registryUrl: "https://index.docker.io",
       username: "najakobs",
       password: process.env.RENOVATE_DOCKER_PASS,
     },

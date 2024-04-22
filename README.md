@@ -21,3 +21,25 @@ https://hub.docker.com/layers/kubesphere/kube-state-metrics/v2.8.0/images/sha256
 ❯ crane digest kubesphere/kube-state-metrics:v2.8.0
 sha256:5658d0011a41779ef114f3508143a0e67e4169f64333d0337e731d191ab7edb8
 ```
+
+### crane ls
+
+```
+❯ crane ls kubesphere/kube-state-metrics
+v1.5.2
+v1.7.2
+v1.8.0
+v1.9.4
+v1.9.5
+v1.9.6
+v1.9.6-arm64
+v1.9.7
+v1.9.7-arm64
+v2.10.1
+v2.3.0
+v2.5.0
+v2.6.0
+v2.8.0
+v2.8.2
+❯
+```
