@@ -9,8 +9,8 @@ replicas: 1
 kubeStateMetrics:
   image:
     repository: kubesphere/kube-state-metrics
-    tag: v2.8.0
-    digest: sha256:5658d0011a41779ef114f3508143a0e67e4169f64333d0337e731d191ab7edb8
+    tag: v2.10.1
+    digest: sha256:af8220f534938de121a694cb7314313a6195c9d494fc30bfa6885b08a276bb82
     pullPolicy: IfNotPresent
 
 fullnameOverride: kube-state-metrics
