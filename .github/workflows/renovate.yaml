@@ -32,3 +32,4 @@ jobs:
           LOG_LEVEL: debug
           RENOVATE_DOCKER_USER: najakobs
           RENOVATE_DOCKER_PASS: ${{ secrets.RENOVATE_DOCKER_PASS }}
+          DOCKER_PASS: ${{ secrets.RENOVATE_DOCKER_PASS }}
